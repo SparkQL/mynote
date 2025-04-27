@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>LuckyQL</title>
+  <title>你看到的价值</title>
   <style>
     body {
       font-family: "Arial", sans-serif;
@@ -33,7 +33,7 @@
       border-radius: 10px;
       text-align: center;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      max-width: 400px;
+      max-width: 800px;
       width: 80%;
     }
 
@@ -67,14 +67,14 @@
     .milktea-box {
       display: none;
       text-align: center;
-      padding-top: 100px;
+      padding-top: 50px;
       font-size: 24px;
     }
 
     .milktea-box img {
-      margin-top: 20px;
-      width: 1000px;
-      height: 400px;
+      margin-top: 0px;
+      width: 700px;
+      height: 300px;
     }
 
   </style>
@@ -84,22 +84,25 @@
   <!-- 弹窗区域 -->
   <div class="modal-overlay" id="modal">
     <div class="modal">
-      <h5>你走过的每一步，终将成为你价值的凭证。</h5>
-      <h5>别急着开花，根扎得够深，风雨来了也不会倒。愿你用学习武装自己，把价值变成选择自由的底气。🌻</h5>
+      <h3>你走过的每一步，终将成为你价值的凭证。</h3>
+      <h5>真正的价值是看不见的改变。</h5>
+      <h5>一篇内容，一次启发，也许不会立刻让你脱胎换骨，但它能在你最需要的时候，点亮那盏灯。</h5>
+      <h5>愿你用学习武装自己，把价值变成选择自由的底气。🌻
       <div class="buttons">
-        <button class="agree" onclick="showMilkTea()">Get到了！！</button>
+        <button class="agree" onclick="showMilkTea()">我Get到了！！</button>
         <button class="disagree" onclick="showMilkTea()">我还需思考</button>
       </div>
     </div>
   </div>
 
-  <!-- 奶茶提示区域 -->
   <div class="milktea-box" id="milktea">
-    恭喜你🎉🎉看到了你的价值！！✴️请为你的价值扫码，这将成为你成长的凭证！！🪐🪐
+    <h3>恭喜你🎉🎉</h3>
+    <h4>看到了你的价值！！🔝🔝</h4>
+    <h5>请为你的价值扫码，这将成为你成长的凭证！！🌻🌻</h5>
+    <h6>扫码是在为自己的未来，种下一颗果实，这都会在未来悄悄成就一个更好的你。💵🚗✈️🏰</h6>
     <br>
-    <!-- 这里可以替换成你自己的二维码图片 -->
-    <!-- <img :src="require('@/assets/buy.png')" alt="buy"> -->
     <img src="/mynote/buy.png" alt="你的价值">
+    <!-- <img src="/buy.png" alt="你的价值"> -->
   </div>
 
   <script>
